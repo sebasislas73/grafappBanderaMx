@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.control-box {
+    width: 30%;
+}
+
+.flag-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flag {
+    width: 250px;
+    height: 300px;
+}
+
+.green {
+    background-color: rgb(0,128,0);
+}
+
+.white {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white img {
+    width: 120px;
+}
+
+.red {
+    background-color: rgb(128,0,0);
+}
+
+.team-info {
+    margin-top: 30px;
+    font-weight: bold;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.card-controls {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.control-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+}
+
+.control-card input {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.flag-container {
+    display: flex;
+    width: 600px;
+    height: 350px;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+}
+
+.flag {
+    flex: 1;
+    transition: background-color 0.3s ease;
+}
+
+.green {
+    background-color: rgb(0,128,0);
+}
+
+.white {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white img {
+    width: 140px;
+}
+
+.red {
+    background-color: rgb(128,0,0);
+}
+
+.team-info {
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 0.8;
+}
